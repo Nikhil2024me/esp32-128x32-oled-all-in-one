@@ -1,0 +1,21 @@
+# Arduino / ESP32 build artifacts
+build/
+.pio/
+.pioenvs/
+.piolibdeps/
+*.bin
+*.elf
+*.map
+
+# Secrets — rename config.h.example → config.h with your real keys
+# Uncomment the next line if you want to keep config.h private:
+# config.h
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+*.code-workspace
